@@ -241,4 +241,42 @@ html, body {
     overflow-x: hidden;
 }
 
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .header-container h1 {
+        padding-left: 0;
+        font-size: 180%; /* más pequeño para móviles */
+        text-align: center;
+    }
+
+    .header-container-images img {
+        width: 250px;
+        padding-right: 0;
+        margin-left: 0;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    nav a {
+        font-size: 130%; /* más legible en móvil pero no exagerado */
+    }
+
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .logo-r {
+        width: 80%; /* que no se desborde */
+        max-width: 300px;
+    }
+}
 

@@ -243,13 +243,13 @@ html, body {
 
 @media screen and (max-width: 768px) {
   .header-container h1 {
-    padding-left: 20px;
+    padding-left: 10%;
     font-size: 180%;
     text-align: center;
   }
 
   .header-container-images img {
-    padding-right: 20px;
+    padding-right: 10%;
     width: 200px;
   }
 

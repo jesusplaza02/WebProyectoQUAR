@@ -77,7 +77,7 @@ nav a {
     text-decoration: none;                  /* Eliminar subrayado */
     padding: 10px;                          /* Espaciado de los enlaces */
     font-weight: bold;                      /* Negrita en los enlaces */
-    font-size: 80%;
+    font-size: 20%;
     font-family: 'Ubuntu';
 
 }

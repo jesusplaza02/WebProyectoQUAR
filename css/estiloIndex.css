@@ -17,14 +17,14 @@ a h1 {
     text-decoration: none; /* Quita el subrayado del enlace */
     color: inherit;        /* Hace que el color del enlace sea el mismo que el color del texto alrededor */
     color: white;         /* Asegura que el color del título sea blanco */
-    font-size: 80%;
+    font-size: 300%;
 }
 
 /* Aumentar la especificidad del selector */
 html body header {
     background-color: #051152;
     color: white;
-    padding: 40px 20px;
+    padding: 5% 5%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: fixed;
     top: 0;
@@ -50,15 +50,15 @@ header.scrolled {
 .header-container h1 {
     font-family: 'Josefin Sans';
     margin: 0;                   /* elimina margen extra */
-    padding-left: 300px;  /* aumenta el espacio a la derecha */
+    padding-left: 1%;  /* aumenta el espacio a la derecha */
 }
 
 /* Contenedor de las imágenes */
 .header-container-images img {
-    width: 400px;                 /* tamaño de las imágenes */
+    width: 20%;                 /* tamaño de las imágenes */
     height: auto;
-    margin-left: 10px;           /* espacio entre imágenes si hay varias */
-    padding-right: 300px;  /* aumenta el espacio a la derecha */
+    margin-left: 5%;           /* espacio entre imágenes si hay varias */
+    padding-right: 5%;  /* aumenta el espacio a la derecha */
 }
 
 html body nav {
@@ -77,7 +77,7 @@ nav a {
     text-decoration: none;                  /* Eliminar subrayado */
     padding: 10px;                          /* Espaciado de los enlaces */
     font-weight: bold;                      /* Negrita en los enlaces */
-    font-size: 200%;
+    font-size: 80%;
     font-family: 'Ubuntu';
 
 }

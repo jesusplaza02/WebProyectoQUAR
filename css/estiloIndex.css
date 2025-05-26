@@ -24,7 +24,7 @@ a h1 {
 html body header {
     background-color: #051152;
     color: white;
-    padding: 5% 5%;
+    padding: 3% 5%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: fixed;
     top: 0;
@@ -66,7 +66,7 @@ html body nav {
     justify-content: center;
     gap: 1%;
     background-color: #6975b3;
-    padding: 5% 5%;
+    padding: 3% 5%;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

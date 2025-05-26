@@ -64,9 +64,9 @@ header.scrolled {
 html body nav {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 1%;
     background-color: #6975b3;
-    padding: 15px 20px;
+    padding: 5% 5%;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -75,7 +75,7 @@ html body nav {
 nav a {
     color: white;                           /* Color del texto de los enlaces */
     text-decoration: none;                  /* Eliminar subrayado */
-    padding: 10px;                          /* Espaciado de los enlaces */
+    padding: 5%;                          /* Espaciado de los enlaces */
     font-weight: bold;                      /* Negrita en los enlaces */
     font-size: 20%;
     font-family: 'Ubuntu';
@@ -87,9 +87,6 @@ nav a:hover {
     background-color: #4f5b86;              /* Fondo cuando se pasa el mouse sobre el enlace */
 }
 
-nav {
-    width:100%;
-}
 
 /* Estilo para el contenedor principal */
 .container {
@@ -234,6 +231,7 @@ footer {
 .logo-r{
     display: block;
     margin: 0 auto;
+    width: 20%
 }
 
 .espacio-not {
@@ -242,7 +240,6 @@ footer {
 
 html, body {
     margin: 0;
-    
     overflow-x: hidden;
 }
 /*

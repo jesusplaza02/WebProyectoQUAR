@@ -71,15 +71,13 @@ html body nav {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
 nav a {
-    color: white;                           /* Color del texto de los enlaces */
-    text-decoration: none;                  /* Eliminar subrayado */
-    padding: 5%;                          /* Espaciado de los enlaces */
-    font-weight: bold;                      /* Negrita en los enlaces */
-    font-size: 20%;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;  /* en px para control */
+    font-weight: bold;
+    font-size: 16px;    /* un tamaño legible en móviles */
     font-family: 'Ubuntu';
-
 }
 
 nav a:hover {
@@ -87,6 +85,16 @@ nav a:hover {
     background-color: #4f5b86;              /* Fondo cuando se pasa el mouse sobre el enlace */
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    flex-wrap: wrap;  /* permite que se ajusten a varias filas */
+    background-color: #6975b3;
+    padding: 3% 5%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 /* Estilo para el contenedor principal */
 .container {

@@ -240,7 +240,7 @@ html, body {
     
     overflow-x: hidden;
 }
-
+/*
 @media screen and (max-width: 768px) {
   .header-container h1 {
     padding-left: 10%;
@@ -260,23 +260,23 @@ html, body {
 
   .main-nav ul {
   display: flex;
-  flex-direction: column;   /* De horizontal a vertical */
-  align-items: center;      /* Centrado horizontal */
+  flex-direction: column;   
+  align-items: center;      
   padding: 0;
   margin: 0;
   background-color: #6c74b9;
-  width: 100%;              /* Ocupa todo el ancho disponible */
+  width: 100%;             
 }
 
 .main-nav li {
-  margin: 10px 0;           /* Separación entre enlaces */
+  margin: 10px 0;          
 }
 
 .main-nav a {
-  font-size: 18px;          /* Tamaño legible */
+  font-size: 18px;         
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
-}
+}*/

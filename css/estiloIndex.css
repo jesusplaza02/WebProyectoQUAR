@@ -64,7 +64,7 @@ header.scrolled {
     padding-right: 0;
 }
 
-html body {
+html body nav{
     display: flex;
     justify-content: center;
     gap: 1%;

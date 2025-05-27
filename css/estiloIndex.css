@@ -86,6 +86,7 @@ nav a:hover {
 }
 
 nav {
+    position: fixed;
     display: flex;
     justify-content: center;
     gap: 1%;

@@ -57,13 +57,6 @@ header.scrolled {
     padding-left: 1%;  /* aumenta el espacio a la derecha */
 }
 
-.header-container-images {
-    flex: 0 0 auto;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
 .header-container-images img {
     width: 100px;
     height: auto;

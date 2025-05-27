@@ -117,6 +117,7 @@ nav {
     padding: 50px;                          /* Espaciado interno */
     background-color: white;               /* Fondo blanco */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor */
+    flex: 1; /* Esto hace que crezca y empuje el footer hacia abajo */
 }
 
 

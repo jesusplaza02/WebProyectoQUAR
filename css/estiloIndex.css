@@ -56,10 +56,15 @@ header.scrolled {
 
 /* Contenedor de las imágenes */
 .header-container-images img {
-    width: 40%;                 /* tamaño de las imágenes */
+    /*width: 40%;                 
     height: auto;
-    margin-left: 5%;           /* espacio entre imágenes si hay varias */
-    padding-right: 5%;  /* aumenta el espacio a la derecha */
+    margin-left: 5%;          
+    padding-right: 5%;  */
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    flex: 1 1 300px;
+    margin-left: 20px; /* Añade espacio desde la izquierda */
 }
 
 html body nav {

@@ -64,7 +64,7 @@ header.scrolled {
     padding-right: 0;
 }
 
-html body nav {
+html body {
     display: flex;
     justify-content: center;
     gap: 1%;
@@ -73,6 +73,8 @@ html body nav {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
 
 nav a {
     color: white;
@@ -90,15 +92,19 @@ nav a:hover {
 
 nav {
     position: fixed;
+    top: 80px; /* justo debajo del header (ajústalo según el alto real de tu header) */
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 1%;
-    flex-wrap: wrap;  /* permite que se ajusten a varias filas */
+    flex-wrap: wrap;
     background-color: #6975b3;
-    padding: 3% 5%;
-    text-align: center;
+    padding: 10px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 999;
 }
+
 
 /* Estilo para el contenedor principal */
 .container {

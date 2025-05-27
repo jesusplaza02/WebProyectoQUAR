@@ -18,7 +18,7 @@ a h1 {
     text-decoration: none; /* Quita el subrayado del enlace */
     color: inherit;        /* Hace que el color del enlace sea el mismo que el color del texto alrededor */
     color: white;         /* Asegura que el color del título sea blanco */
-    font-size: 300%;
+    font-size: 200%;
 }
 
 /* Aumentar la especificidad del selector */
@@ -56,7 +56,7 @@ header.scrolled {
 
 /* Contenedor de las imágenes */
 .header-container-images img {
-    width: 20%;                 /* tamaño de las imágenes */
+    width: 40%;                 /* tamaño de las imágenes */
     height: auto;
     margin-left: 5%;           /* espacio entre imágenes si hay varias */
     padding-right: 5%;  /* aumenta el espacio a la derecha */

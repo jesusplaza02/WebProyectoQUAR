@@ -44,8 +44,8 @@ header.scrolled {
 .header-container {
     display: flex;               /* organiza hijos en fila */
     align-items: center;         /* centra verticalmente */
-    justify-content: center; /* separa a izquierda y derecha */
-    gap: 10%;
+    justify-content: space-between; /* Distribuye h1 a la izquierda e imagen a la derecha */
+    padding: 0 20%;
 }
 
 /* Título */

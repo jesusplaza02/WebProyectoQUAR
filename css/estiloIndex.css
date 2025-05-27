@@ -45,6 +45,7 @@ header.scrolled {
     display: flex;               /* organiza hijos en fila */
     align-items: center;         /* centra verticalmente */
     justify-content: center; /* separa a izquierda y derecha */
+    gap: 10%;
 }
 
 /* Título */

@@ -193,11 +193,11 @@ footer {
 }
 
 .contacto-imagen img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     border-radius: 10px;
     flex: 1 1 300px;
-    max-width: 500px;
+    
 }
 
 .acordeon-noticias .noticia {

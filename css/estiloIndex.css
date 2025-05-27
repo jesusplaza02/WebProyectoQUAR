@@ -46,7 +46,7 @@ header.scrolled {
     align-items: center;         /* centra verticalmente */
     justify-content: space-between; /* Distribuye h1 a la izquierda e imagen a la derecha */
     padding: 0 10%;
-    gap: 30%
+    gap: 10%
 }
 
 /* Título */

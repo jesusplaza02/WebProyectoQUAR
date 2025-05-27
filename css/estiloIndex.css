@@ -44,7 +44,7 @@ header.scrolled {
 .header-container {
     display: flex;               /* organiza hijos en fila */
     align-items: center;         /* centra verticalmente */
-    justify-content: space-between; /* separa a izquierda y derecha */
+    justify-content: center; /* separa a izquierda y derecha */
 }
 
 /* Título */

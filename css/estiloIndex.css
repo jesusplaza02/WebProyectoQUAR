@@ -55,7 +55,7 @@ header.scrolled {
 
 /* Contenedor de las imágenes */
 .header-container-images img {
-    width: 20%;                 /* tamaño de las imágenes */
+    width: 40%;                 /* tamaño de las imágenes */
     height: auto;
     margin-left: 5%;           /* espacio entre imágenes si hay varias */
     padding-right: 5%;  /* aumenta el espacio a la derecha */

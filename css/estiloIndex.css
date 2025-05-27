@@ -1,6 +1,4 @@
-d184635
-css\estiloIndex.css
-@@ -1,85 +1,83 @@
+
 /* Estilo global */
 body {
     padding-top: 130px;  /* 80px (header) + 50px (nav) */
@@ -91,8 +89,6 @@ nav a {
 }
 
 nav a:hover {
-
-@@ -87,199 +85,209 @@
     background-color: #4f5b86;              /* Fondo cuando se pasa el mouse sobre el enlace */
 }
 
@@ -203,11 +199,10 @@ footer {
 }
 
 .contacto-imagen img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 10px;
     flex: 1 1 300px;
-    max-width: 500px;
 }
 
 .acordeon-noticias .noticia {

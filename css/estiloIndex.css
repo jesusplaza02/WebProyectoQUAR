@@ -60,7 +60,7 @@ header.scrolled {
     height: auto;
     margin-left: 5%;          
     padding-right: 5%;  */
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
     border-radius: 10px;
     flex: 1 1 300px;
